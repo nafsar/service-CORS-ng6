@@ -3,7 +3,7 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.2.
 
 ## Demo https://nafsar.github.io/demo/cors/
-## CORS support. The server needs to be set for CORS authentication Access Control Allow Origin to accept requests
+ CORS support. The server needs to be set for CORS authentication Access Control Allow Origin to accept requests
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
