@@ -1,0 +1,26 @@
+
+  <div class="try">
+    <div class="divimg"></div>
+</div>
+<header>
+    <div class="divyr">
+          <div class="spyr">{{fullDate}}</div>
+    </div>
+    <div class="divrec">
+          <div class="sprec">{{records}}</div>
+    </div>
+</header>
+<section>
+    <div *ngFor="let value of values">
+          <div class="devmth">{{value.month}}</div>
+          <table class="lstdt">
+
+                <tbody>
+                      <tr>
+                            <td class="row-name">{{value.name}}:</td>
+                            <td class="row-id">{{value.rec}}</td>
+                      </tr>
+                </tbody>
+          </table>
+    </div>
+</section>
